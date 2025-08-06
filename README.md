@@ -24,9 +24,7 @@ This project pulls and processes nearly **50,000 rows of historical Bitcoin data
 
 ## 🚨 Note on Model Performance
 
-While the model achieves **extremely high accuracy**, this may indicate **data leakage**, class imbalance, or feature contamination. Real-world financial data rarely allows for such strong predictive power without overfitting or leakage.
-
-That said, because this is a **binary classification problem with nearly 50,000 rows of historical data**, the model may be benefiting from the volume and structure of the input data — meaning the accuracy isn’t necessarily unrealistic. Still, additional testing is required to validate the result.
+While the model achieves **extremely high accuracy**, this may indicate **data leakage**, class imbalance, or feature contamination. It is most likely that we see this perfomance from class imbalence due to the high volume of price decreases, as seen in our distribution bar chart.
 
 ---
 
