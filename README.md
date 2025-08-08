@@ -24,7 +24,7 @@ This project pulls and processes nearly **50,000 rows of historical Bitcoin data
 
 ## 🚨 Note on Model Performance
 
-While the model achieves **extremely high accuracy**, this may indicate **data leakage**, class imbalance, or feature contamination. It is most likely that we see this perfomance from class imbalence due to the high volume of price decreases, as seen in our distribution bar chart.
+While the model achieves **extremely high accuracy**, this may indicate **data leakage**, class imbalance, or feature contamination. It is most likely that we see this perfomance from class imbalence due to the high volume of multi_target equalling zero, as seen in our distribution bar chart.
 
 ---
 
